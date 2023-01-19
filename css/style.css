@@ -90,7 +90,7 @@
         top: 20px;
         left: 20px;
         z-index: 5;
-        opacity: 1.2;
+        
         cursor: pointer;
     }
 
@@ -193,7 +193,7 @@
 article {
   grid-area: content;
   background-color: antiquewhite;
-  
+  padding: 20px;
   border-radius: 5pt;
   box-shadow: 0 3px 3px 0 rgba(0.2, 0.2, 0.2, 0.2);
 }
@@ -498,3 +498,8 @@ transition: all 0.2s;
 .project a:hover{
   transform: scale(1.1);
 }
+
+
+
+
+
