@@ -198,9 +198,12 @@
   .column {
     float: left;
     width: 50%;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 50px;
-    padding-right: 100px;
+    padding-right: 50px;
+  }
+  .column img{
+    padding-left: 20px;
   }
   
   /* Clear floats after the columns */
@@ -215,4 +218,17 @@
     .column {
       width: 100%;
     }
+  }
+  .brainstorming h2{
+text-align: center;
+  }
+  .brainstorming h3{
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+      }
+  .brainstorming p{
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
   }
